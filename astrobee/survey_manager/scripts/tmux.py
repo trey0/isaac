@@ -59,10 +59,9 @@ import shutil
 import signal
 import subprocess
 import sys
-import time
 import tempfile
+import time
 from typing import List
-
 
 THIS_DIR = pathlib.Path(__file__).resolve().parent
 WINDOW_EXISTED_REGEX = re.compile(r"^create window failed: index \d+ in use\n$")
