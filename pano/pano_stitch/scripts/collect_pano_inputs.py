@@ -38,7 +38,7 @@ import pano_image_meta
 
 PANO_STITCH_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 DEFAULT_CONFIG = os.path.join(PANO_STITCH_ROOT, "config", "isaac_phase1x_panos.csv")
-FILTER_ARGS = "-a /hw/cam_sci/compressed -a /loc/pose"
+FILTER_ARGS = "-a /hw/cam_sci/compressed -a /hw/cam_sci_info -a /loc/pose"
 
 
 def dosys(cmd, exit_on_error=True, echo=True):
