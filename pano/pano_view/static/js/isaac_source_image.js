@@ -433,7 +433,7 @@ function initIsaacSourceImage() {
     document.title = slugText + ": ISAAC ISS Tour";
 
     // Configure other button handlers
-    document.getElementById('isaac-raw-anchor').href = '../../source_images/'
+    document.getElementById('isaac-raw-anchor').href = '../source_images/'
         + configFromUrl['scene'] + '/'
         + configFromUrl['imageId'] + '.jpg';
     var imageStoragePath = [configFromUrl.scene, configFromUrl.imageId];
